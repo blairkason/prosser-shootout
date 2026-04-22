@@ -1,1 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kids Camp | Prosser Basketball</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .hero {
+      background: linear-gradient(rgba(128,0,0,.75), rgba(0,0,0,.7)),
+        url('https://codehs.com/uploads/a70f8fea07703488f6ccd5cc85fd9990') center/cover no-repeat;
+      color: white;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+    }
+    .section-title { font-weight: 700; margin-bottom: 1rem; }
+    .info-card {
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.08);
+      height: 100%;
+      border-top: 4px solid #b30000;
+    }
+    .camp-alert {
+      background: linear-gradient(90deg, #8B0000, #b30000);
+      color: white;
+      border-radius: 18px;
+      box-shadow: 0 10px 24px rgba(0,0,0,.18);
+    }
+    .camp-glow {
+      box-shadow: 0 0 0 4px rgba(255,255,255,.18), 0 10px 24px rgba(0,0,0,.2);
+      font-weight: 700;
+    }
+    footer { background-color: #8B0000; color: white; }
+  </style>
+</head>
+<body>
 
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#8B0000;">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Prosser Basketball</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="shootout.html">Prosser Shootout</a></li>
+          <li class="nav-item"><a class="nav-link active" href="kidscamp.html">Kids Camp</a></li>
+          <li class="nav-item"><a class="nav-link" href="golf.html">Golf</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+  <section class="hero">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="display-4 fw-bold mb-3">Mustang Hoop Camp</h1>
+          <p class="lead mb-3">Hosted by PHS boys and girls basketball.</p>
+          <p class="fs-5 mb-4">June 15–16 | $50 per person | Boys and girls grades K–8</p>
+          <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=xK9WLCVl4U2IMN-Dm3GE3-gJ1iMMFdhEvZWIhng26_NUQVNaMEU4RFhHU1pVV05QVFFUUUFLNkZRNi4u" target="_blank" class="btn btn-lg me-2" style="background-color:#b30000; color:white; border:none;">Register for Camp</a>
+          <a href="#register" class="btn btn-lg me-2" style="background-color:#8B0000; color:white; border:none;">Camp Details</a>
+          <a href="#contact" class="btn btn-lg" style="border:2px solid white; color:white;">Questions?</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-4 bg-light">
+    <div class="container">
+      <div class="camp-alert p-4 text-center">
+        <div class="row align-items-center g-3">
+          <div class="col-lg-8 text-lg-start">
+            <h2 class="fw-bold mb-1">Mustang Hoop Camp is Coming Up!</h2>
+            <p class="mb-0">Register by May 22 to guarantee a camp shirt.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="#register" class="btn btn-light btn-lg camp-glow">View Camp Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card info-card p-4 text-center">
+            <h3 class="fw-bold">Event Date</h3>
+            <p class="mb-0">June 15–16</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card info-card p-4 text-center">
+            <h3 class="fw-bold">Entry Fee</h3>
+            <p class="mb-0">$50 per person</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card info-card p-4 text-center">
+            <h3 class="fw-bold">Who Can Attend?</h3>
+            <p class="mb-0">Boys and girls grades K–8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="register" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-start g-5">
+        <div class="col-lg-6">
+          <h2 class="section-title">Camp Details</h2>
+          <div class="card info-card p-4 mb-4">
+            <ul class="mb-0">
+              <li><strong>K–4th:</strong> 8:30–10:30 AM</li>
+              <li><strong>5th–8th:</strong> 11:00 AM–1:00 PM</li>
+              <li>Campers should bring a <strong>water bottle</strong></li>
+              <li>Campers should bring a <strong>basketball</strong> if possible</li>
+              <li>Admission includes a <strong>camp t-shirt</strong></li>
+              <li>Register by <strong>May 22</strong> to guarantee a shirt</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">Registration & Payment</h2>
+          <div class="card info-card p-4">
+            <p class="mb-3">You may pay:</p>
+            <ul>
+              <li>In person on the first day of camp (cash/check)</li>
+              <li>In person at the PHS office (cash/check/card) through June 5</li>
+            </ul>
+            <p class="mb-3"><strong>Early registration deadline for guaranteed shirt:</strong> May 22</p>
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=xK9WLCVl4U2IMN-Dm3GE3-gJ1iMMFdhEvZWIhng26_NUQVNaMEU4RFhHU1pVV05QVFFUUUFLNkZRNi4u" target="_blank" class="btn btn-lg" style="background-color:#b30000; color:white; border:none;">Register for Camp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card info-card p-4 text-center h-100">
+            <h3 class="fw-bold">Questions?</h3>
+            <p class="mb-2">Contact:</p>
+            <p class="mb-0 fw-semibold">jessica.huntington@prosserschools.org</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card info-card p-4 text-center h-100">
+            <h3 class="fw-bold">Hosted By</h3>
+            <p class="mb-0">PHS boys and girls basketball</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4">
+    <div class="container text-center">
+      <p class="mb-1 fw-bold">Prosser Basketball</p>
+      <p class="mb-1">Prosser High School | Prosser, Washington</p>
+      <p class="mb-0">Home for tournaments, camps, fundraisers, and program updates.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
