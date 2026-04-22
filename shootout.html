@@ -44,68 +44,92 @@
 </head>
 <body>
 
-  <!-- everything above unchanged -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#8B0000;">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Prosser Basketball</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="shootout.html">Prosser Shootout</a></li>
+        <li class="nav-item"><a class="nav-link" href="camp.html">Kids Camp</a></li>
+        <li class="nav-item"><a class="nav-link" href="golf.html">Golf</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-  <section class="py-5 bg-light">
-    <div class="container text-center">
-      <h2 class="section-title">Photos from Previous Tournaments</h2>
-      <div id="tourneyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="2"></button>
-          <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="3"></button>
-          <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="4"></button>
-          <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="5"></button>
+<!-- (everything above unchanged) -->
+
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-title">Photos from Previous Tournaments</h2>
+
+    <div id="tourneyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="5"></button>
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="6"></button>
+        <button type="button" data-bs-target="#tourneyCarousel" data-bs-slide-to="7"></button>
+      </div>
+
+      <div class="carousel-inner rounded-4 shadow">
+
+        <div class="carousel-item active">
+          <img src="images/game1.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
         </div>
 
-        <div class="carousel-inner rounded-4 shadow">
+        <div class="carousel-item">
+          <img src="images/game2.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
+        </div>
 
-          <div class="carousel-item active">
-            <img src="images/game1.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
+        <div class="carousel-item">
+          <img src="images/game3.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
+        </div>
 
-          <div class="carousel-item">
-            <img src="images/game2.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
+        <div class="carousel-item">
+          <img src="images/game4.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
+        </div>
 
-          <div class="carousel-item">
-            <img src="images/game3.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
+        <div class="carousel-item">
+          <img src="images/game5.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
+        </div>
 
-          <div class="carousel-item">
-            <img src="images/game4.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
+        <div class="carousel-item">
+          <img src="images/game6.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
+        </div>
 
-          <div class="carousel-item">
-            <img src="images/game5.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
+        <div class="carousel-item">
+          <img src="images/game7.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
+        </div>
 
-          <div class="carousel-item">
-            <img src="images/game6.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
+        <div class="carousel-item">
+          <img src="images/game8.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
+        </div>
 
-          <div class="carousel-item">
-            <img src="images/game7.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
-
-          <div class="carousel-item">
-            <img src="images/game8.jpg" class="d-block w-100" style="height:500px; object-fit:cover;">
-          </div>
-
-        </div> <!-- ✅ THIS WAS MISSING -->
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#tourneyCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#tourneyCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
       </div>
-    </div>
-  </section>
 
-  <!-- everything below unchanged -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#tourneyCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#tourneyCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<script async src="//www.instagram.com/embed.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
